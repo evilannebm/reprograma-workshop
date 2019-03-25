@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0%
+}
+
+.capa{
+    background-image: url(../img/evilanne.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    text-align: left;
+    padding: 8rem;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 48px;
+    margin: 0;
+}
+
+h2{
+    font-size: 30px;
+    color: gray;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+h4{
+    font-size: 20px;
+    color: gray;
+}
+
+.conhecer{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 3rem;
+    padding: 10px 20px;
+}
+
+.infos{
+    margin: 0 auto;
+    max-width: 1100px;
+    margin-top: 8px;
+    display: block;
+}
+
+.texto{
+    width: 40%;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.lista{
+    width: 40%;
+    display: inline-block;
+    margin-left: 100px;
+}
+.paragrafo1{
+    font-size: 18px;
+}
+.paragrafo2{
+    font-size: 16px;
+    line-height: 24px;
+}
+ul{
+    line-height: 30px;
+}
+.ler{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 3rem;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+.redes-sociais{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.quadrado{
+    background: #ececec;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.icone{
+    width: 100px;
+}
+.rodape{
+    font-size: 20px;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 18px; 
+}
